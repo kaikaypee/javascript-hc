@@ -24,8 +24,8 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let someNumber = 33
 
 let stringNumber = String(someNumber)
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
 // *********************** Operations ***********************
 
@@ -49,9 +49,9 @@ let str3 = str1 + str2
 // console.log("1" + 2);
 // console.log(1 + "2");
 // console.log("1" + 2 + 2);
-// console.log(1 + 2 + "2");
+// console.log((1 + 2) + "2");
 
-// console.log( (3 + 4) * 5 % 3);
+// console.log( (3 + 4) * 5 % 3); // modulas in result
 
 // console.log(+true);
 // console.log(+"");
